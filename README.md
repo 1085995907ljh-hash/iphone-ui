@@ -4,6 +4,36 @@
 
 当前版本：**0.5.1**。默认面向美国市场，界面使用美式英语，设计说明使用对话语言；可以按用户要求调整。
 
+## 页面案例
+
+以下是本工作区已有设计项目的 **HTML 可交互原型实拍截图**，用于展示页面布局和视觉效果，并非原生 iOS App 截图，也不是本轮新生成的概念图。展示的是各项目已保存的具体版本；示例数据与图片不代表真实账户、行程或用户照片。点击图片可以查看原尺寸。
+
+### Headroom · 预算与现金流
+
+以预计可用余额为首页视觉中心，结合账单时间提醒和记账入口；周期支出页集中呈现金额、扣款账户和本次记录状态。首页采用 round-06 截图，周期支出页采用基准截图。
+
+| 预算概览 | 周期支出 |
+| --- | --- |
+| <a href="assets/examples/headroom-overview.png"><img src="assets/examples/headroom-overview.png" width="280" alt="Headroom 预算首页：预计余额、发薪前提醒和待办账单"></a> | <a href="assets/examples/headroom-recurring-payment.png"><img src="assets/examples/headroom-recurring-payment.png" width="280" alt="Headroom 周期支出：房租金额、账户和记录付款按钮"></a> |
+
+### Packwise · 旅行打包清单
+
+采用「A 行程映像」v2 交付包：行程封面与打包进度帮助用户继续当前旅行，草稿审阅页展示分类、物品数量与理由，并保留明确的清单确认动作。
+
+| 行程首页 | 清单草稿审阅 |
+| --- | --- |
+| <a href="assets/examples/packwise-home.png"><img src="assets/examples/packwise-home.png" width="280" alt="Packwise 行程首页：西雅图封面、打包进度和旅行草稿"></a> | <a href="assets/examples/packwise-review.png"><img src="assets/examples/packwise-review.png" width="280" alt="Packwise 草稿审阅：衣物分类、建议数量和确认清单按钮"></a> |
+
+### Memoria Select · 照片筛选与故事整理
+
+采用六页 MVP 的首页与复核页：以照片为主体，用 Keep、Maybe、Leave out 表达筛选状态，再进入故事整理。此项目界面采用英式英语，宠物照片为生成示例。
+
+| 照片集合入口 | 照片复核 |
+| --- | --- |
+| <a href="assets/examples/memoria-home.png"><img src="assets/examples/memoria-home.png" width="280" alt="Memoria Select 集合入口：宠物示例照片与创建项目按钮"></a> | <a href="assets/examples/memoria-review.png"><img src="assets/examples/memoria-review.png" width="280" alt="Memoria Select 照片复核：锚点、保留与待定选择"></a> |
+
+这里展示视觉与交互设计成果，不代表银行、AI、系统照片库或支付等正式服务已接入。截图原样收录，来源版本与 SHA-256 记录见 [案例清单](assets/examples/manifest.json)。
+
 ## 工作流程
 
 1. 理解产品，列出主要页面和每页任务。
