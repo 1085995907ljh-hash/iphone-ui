@@ -1,0 +1,4 @@
+interface:
+  display_name: "iPhone UI"
+  short_description: "美国 iOS 原型：确认布局、选择视觉方案、生成效果图，确认后开发"
+  default_prompt: "使用 $iphone-ui，为美国市场的 iPhone App 梳理页面与布局，确认低保真后先选择配色、字体、图片与控件风格，再用 Image Gen 在低保真基础上逐页润色，每个主页面一张整屏效果图，不自动展开所有状态，整套确认后开发 Demo。"
