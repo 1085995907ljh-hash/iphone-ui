@@ -14,7 +14,7 @@
 
 | 预算概览 | 周期支出 |
 | --- | --- |
-| <a href="assets/examples/headroom-overview.png"><img src="assets/examples/headroom-overview.png" width="280" alt="Headroom 预算首页：预计余额、发薪前提醒和待办账单"></a> | <a href="assets/examples/headroom-recurring-payment.png"><img src="assets/examples/headroom-recurring-payment.png" width="280" alt="Headroom 周期支出：房租金额、账户和记录付款按钮"></a> |
+| <a href="assets/examples/headroom-overview.jpg"><img src="assets/examples/headroom-overview.jpg" width="280" alt="Headroom 预算首页：预计余额、发薪前提醒和待办账单"></a> | <a href="assets/examples/headroom-recurring-payment.jpg"><img src="assets/examples/headroom-recurring-payment.jpg" width="280" alt="Headroom 周期支出：房租金额、账户和记录付款按钮"></a> |
 
 ### Packwise · 旅行打包清单
 

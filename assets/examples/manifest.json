@@ -1,12 +1,12 @@
 [
   {
-    "file": "headroom-overview.png",
+    "file": "headroom-overview.jpg",
     "source": "headroom/prototype/evidence/round-06/H01.png",
     "sha256": "ae3abd9b0b3a4a5b73e82f9be6d4024b98f72eced8e523e3e296935ee9b6b71f",
     "kind": "HTML prototype screenshot"
   },
   {
-    "file": "headroom-recurring-payment.png",
+    "file": "headroom-recurring-payment.jpg",
     "source": "headroom/prototype/evidence/H07.png",
     "sha256": "4de6602e9eda95e7e8b30ef18e88f813ff9edd1739f6f1646c0c9482c969fe97",
     "kind": "HTML prototype screenshot"
