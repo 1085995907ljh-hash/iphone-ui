@@ -6,43 +6,25 @@
 
 ## 页面案例
 
-### 对话原型精选
-
-以下三张是用户从设计对话中提供的原型截图，原样收录。Packwise 展示旅行封面与打包进度，NourishSet 展示预算、备餐成本与每日餐单，Headroom 展示预计余额与账单时间提醒。它们是不同产品的设计案例，可参考各自的信息层级、图片用途和主要操作。
-
-| Packwise · 旅行打包 | NourishSet · 饮食规划 | Headroom · 现金流 |
-| --- | --- | --- |
-| <a href="assets/examples/packwise-reference.png"><img src="assets/examples/packwise-reference.png" width="260" alt="Packwise 对话原型：西雅图行程封面、打包进度与继续打包入口"></a> | <a href="assets/examples/nourishset-plan-reference.png"><img src="assets/examples/nourishset-plan-reference.png" width="260" alt="NourishSet 对话原型：42 美元购物预算、备餐时间与每日三餐"></a> | <a href="assets/examples/headroom-reference.png"><img src="assets/examples/headroom-reference.png" width="260" alt="Headroom 对话原型：1240 美元预计余额、发薪前提醒与近期收支"></a> |
-
-截图记录的是对话中的具体版本，不代表项目当前最新界面。NourishSet 截图底部导航未完整显示。以下保留更多页面案例，来源与文件校验值见 [案例清单](assets/examples/manifest.json)。
-
-以下是本工作区已有设计项目的 **HTML 可交互原型实拍截图**，用于展示页面布局和视觉效果，并非原生 iOS App 截图，也不是本轮新生成的概念图。展示的是各项目已保存的具体版本；示例数据与图片不代表真实账户、行程或用户照片。点击图片可以查看原尺寸。
-
-### Headroom · 预算与现金流
-
-以预计可用余额为首页视觉中心，结合账单时间提醒和记账入口；周期支出页集中呈现金额、扣款账户和本次记录状态。首页采用 round-06 截图，周期支出页采用基准截图。
-
-| 预算概览 | 周期支出 |
-| --- | --- |
-| <a href="assets/examples/headroom-overview.jpg"><img src="assets/examples/headroom-overview.jpg" width="280" alt="Headroom 预算首页：预计余额、发薪前提醒和待办账单"></a> | <a href="assets/examples/headroom-recurring-payment.jpg"><img src="assets/examples/headroom-recurring-payment.jpg" width="280" alt="Headroom 周期支出：房租金额、账户和记录付款按钮"></a> |
+以下为用户提供的 Packwise 与 NourishSet 页面图片，原样收录。点击图片可查看原尺寸。
 
 ### Packwise · 旅行打包清单
 
-采用「A 行程映像」v2 交付包：行程封面与打包进度帮助用户继续当前旅行，草稿审阅页展示分类、物品数量与理由，并保留明确的清单确认动作。
+行程首页展示目的地封面、打包进度与继续打包入口；物品页支持搜索、分类查看，以及管理已有或可借用的旅行用品。
 
-| 行程首页 | 清单草稿审阅 |
+| 行程首页 | 我的物品 |
 | --- | --- |
-| <a href="assets/examples/packwise-home.png"><img src="assets/examples/packwise-home.png" width="280" alt="Packwise 行程首页：西雅图封面、打包进度和旅行草稿"></a> | <a href="assets/examples/packwise-review.png"><img src="assets/examples/packwise-review.png" width="280" alt="Packwise 草稿审阅：衣物分类、建议数量和确认清单按钮"></a> |
+| <a href="assets/examples/packwise-home.png"><img src="assets/examples/packwise-home.png" width="280" alt="Packwise 行程首页：西雅图封面、打包进度与旅行草稿"></a> | <a href="assets/examples/packwise-items.png"><img src="assets/examples/packwise-items.png" width="280" alt="Packwise 我的物品：搜索、分类与旅行用品列表"></a> |
 
-### Memoria Select · 照片筛选与故事整理
+### NourishSet · 饮食规划
 
-采用六页 MVP 的首页与复核页：以照片为主体，用 Keep、Maybe、Leave out 表达筛选状态，再进入故事整理。此项目界面采用英式英语，宠物照片为生成示例。
+计划页集中展示购物预算、备餐时间、每日餐单与营养目标；购物页按食材类别展示待购物品、数量和预估价格。
 
-| 照片集合入口 | 照片复核 |
+| 饮食计划 | 购物清单 |
 | --- | --- |
-| <a href="assets/examples/memoria-home.png"><img src="assets/examples/memoria-home.png" width="280" alt="Memoria Select 集合入口：宠物示例照片与创建项目按钮"></a> | <a href="assets/examples/memoria-review.png"><img src="assets/examples/memoria-review.png" width="280" alt="Memoria Select 照片复核：锚点、保留与待定选择"></a> |
+| <a href="assets/examples/nourishset-plan.png"><img src="assets/examples/nourishset-plan.png" width="280" alt="NourishSet 饮食计划：预算、备餐时间、每日餐单与营养目标"></a> | <a href="assets/examples/nourishset-shop.png"><img src="assets/examples/nourishset-shop.png" width="280" alt="NourishSet 购物清单：预估总价、分类金额与食材数量"></a> |
 
-这里展示视觉与交互设计成果，不代表银行、AI、系统照片库或支付等正式服务已接入。截图原样收录，来源版本与 SHA-256 记录见 [案例清单](assets/examples/manifest.json)。
+案例用于展示界面设计，示例金额、行程和食材不代表真实用户数据，也不表示正式服务已接入。文件来源与 SHA-256 记录见 [案例清单](assets/examples/manifest.json)。
 
 ## 工作流程
 

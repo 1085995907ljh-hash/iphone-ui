@@ -1,59 +1,26 @@
 [
   {
-    "file": "packwise-reference.png",
-    "source": "User-provided conversation screenshot, 2026-10-19, attachment 1",
-    "conversationId": "01a1247b-e6b0-77a3-9f02-b7fd1093c356",
-    "sha256": "ee56b47624321318a6e5ac5fc062250d175f096dae3a4eb93217bbff10e8ab79",
-    "kind": "User-provided HTML prototype screenshot"
-  },
-  {
-    "file": "nourishset-plan-reference.png",
-    "source": "User-provided conversation screenshot, 2026-10-19, attachment 2",
-    "conversationId": "01a13cf8-9e4c-7550-8bce-e4ecccba79d2",
-    "sha256": "29ef26b5dacc57b78fb9bfbb84fab703b7f47f237bb2dcba5c15af4e0fc8fae7",
-    "kind": "User-provided HTML prototype screenshot"
-  },
-  {
-    "file": "headroom-reference.png",
-    "source": "User-provided conversation screenshot, 2026-10-19, attachment 3",
-    "conversationId": "01a1423a-84f3-77c0-b2b6-735f5612c049",
-    "sha256": "65780e7f18b94d9e9b27d005b0acccbaa7a0b34fd00cc8bffd440104a3bd9350",
-    "kind": "User-provided HTML prototype screenshot"
-  },
-  {
-    "file": "headroom-overview.jpg",
-    "source": "headroom/prototype/evidence/round-06/H01.png",
-    "sha256": "ae3abd9b0b3a4a5b73e82f9be6d4024b98f72eced8e523e3e296935ee9b6b71f",
-    "kind": "HTML prototype screenshot"
-  },
-  {
-    "file": "headroom-recurring-payment.jpg",
-    "source": "headroom/prototype/evidence/H07.png",
-    "sha256": "4de6602e9eda95e7e8b30ef18e88f813ff9edd1739f6f1646c0c9482c969fe97",
-    "kind": "HTML prototype screenshot"
-  },
-  {
     "file": "packwise-home.png",
-    "source": "packwise/delivery/Packwise-A-v2/evidence/home.png",
-    "sha256": "f7a760d1963f6cd4f50ce575e506e85c51026bddb780bc8e9b10fab75f2a7197",
-    "kind": "HTML prototype screenshot"
+    "source": "/Users/apple/Desktop/Packwise-Coastal-Stay/evidence/home.png",
+    "sha256": "3048ed49ce39cd5331ad274dd1aa309922e8b7db938bc190ce16824c52a6a2a7",
+    "kind": "User-provided design example"
   },
   {
-    "file": "packwise-review.png",
-    "source": "packwise/delivery/Packwise-A-v2/evidence/review.png",
-    "sha256": "28a64f3bdfa38768f97d40c19a62ee7cc869e3155a944cbd86722a8c53bdf382",
-    "kind": "HTML prototype screenshot"
+    "file": "packwise-items.png",
+    "source": "/Users/apple/Desktop/Packwise-Coastal-Stay/evidence/items.png",
+    "sha256": "d3d3b227402f4d8a61d1e3a2099f363d576049a8146a3cb92da62c5eabce66f9",
+    "kind": "User-provided design example"
   },
   {
-    "file": "memoria-home.png",
-    "source": "memoria-select/design/evidence/six-pages/home/page.png",
-    "sha256": "18044e456f060fec9b95bb054786522856253d6a749438098750f7a21c6edea9",
-    "kind": "HTML prototype screenshot"
+    "file": "nourishset-plan.png",
+    "source": "/Users/apple/Desktop/appuidesigner/nourishset/iphone-demo/references/plan.png",
+    "sha256": "569c941e7af8797ae83fba7569768ca0595db13118b580d6a826bf0ad9c5414e",
+    "kind": "User-provided design example"
   },
   {
-    "file": "memoria-review.png",
-    "source": "memoria-select/design/evidence/six-pages/review/page.png",
-    "sha256": "b601f509c3dc4d32dc464ee976f1eebe745dc4fb586fcfad68d203eaf1f8807e",
-    "kind": "HTML prototype screenshot"
+    "file": "nourishset-shop.png",
+    "source": "/Users/apple/Desktop/appuidesigner/nourishset/iphone-demo/references/shop.png",
+    "sha256": "df82c9ec955e2bee3e6e68e72dd6b4b3aea67bf0f2bc9b536d698df602416bdb",
+    "kind": "User-provided design example"
   }
 ]
