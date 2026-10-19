@@ -1,6 +1,6 @@
 # 对比页与截图
 
-继承 Oil UI 的生成器与截图工具。使用绝对 Skill 路径，产物放在任务目录。Python 3.10+；截图脚本需要 Node 22+ 和本机 Chromium 系浏览器，失败时明确说明工具缺口。
+继承 Oil UI 的生成器与截图工具。以 SKILL.md 所在目录确定绝对 Skill 路径，产物放在任务目录，不依赖某个 Agent 的安装目录。生成器需要 Python 3.10+；附带截图脚本需要 Node 22+ 和本机 Chromium 系浏览器。宿主已有浏览器工具时可以直接截图和操作，无需为此安装另一套运行时；输出仍需满足 references/review.md 的证据要求。失败时按 [宿主适配](agent-compatibility.md) 说明工具缺口。
 
 ## 对比页
 
