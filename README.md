@@ -4,7 +4,7 @@
 
 当前版本：**0.6.0**。默认面向美国市场，界面使用美式英语，设计说明使用对话语言；可以按用户要求调整。
 
-快速安装：`npx skills add 1085995907ljh-hash/iphone-ui --skill iphone-ui -g`。WorkBuddy 用户可直接下载 [0.6.0 ZIP 安装包](https://github.com/1085995907ljh-hash/iphone-ui/releases/download/v0.6.0/iphone-ui-0.6.0-workbuddy.zip)，按下方说明导入。安装入口适配不代表已在各软件中完成全流程实测，见 [验证记录](docs/compatibility-validation.md)。
+Codex 快速安装：`npx skills add 1085995907ljh-hash/iphone-ui --skill iphone-ui -g -a codex`。其他软件按下方命令选择目标。WorkBuddy 用户可直接下载 [0.6.0 ZIP 安装包](https://github.com/1085995907ljh-hash/iphone-ui/releases/download/v0.6.0/iphone-ui-0.6.0-workbuddy.zip)，按下方说明导入。安装入口适配不代表已在各软件中完成全流程实测，见 [验证记录](docs/compatibility-validation.md)。
 
 ## 页面案例
 
@@ -44,14 +44,20 @@
 
 ### 通用命令：Codex、Claude Code、Cursor 等
 
-需要 Node.js、npm 和可访问 GitHub 的环境。使用 [Skills CLI](https://github.com/vercel-labs/skills) 选择目标 Agent；`-g` 表示用户级安装，省略则安装到当前项目。CLI 负责按宿主选择目录，不必手动维护多份路径。
+需要 Node.js、npm、Git 和可访问 GitHub 的环境。使用 [Skills CLI](https://github.com/vercel-labs/skills) 明确指定目标 Agent；`-g` 表示用户级安装，省略则安装到当前项目。CLI 负责按宿主选择目录，不必手动维护多份路径。
 
 ```bash
-npx skills add 1085995907ljh-hash/iphone-ui --skill iphone-ui -g
+# Codex
+npx skills add 1085995907ljh-hash/iphone-ui --skill iphone-ui -g -a codex
+
+# Claude Code
+npx skills add 1085995907ljh-hash/iphone-ui --skill iphone-ui -g -a claude-code
 
 # 只安装到指定软件，可单独选择其中一个
 npx skills add 1085995907ljh-hash/iphone-ui --skill iphone-ui -g -a codex -a claude-code
 ```
+
+需要非交互安装时，在命令末尾添加 `-y`；首次运行 npx 也可能询问是否下载 Skills CLI。建议保留 `-a`：不指定时，CLI 可能根据交互环境或 Agent 检测自动选择多个目标，其中部分目标不支持全局安装，产生与 iphone-ui 无关的警告。
 
 Cursor、Gemini CLI、CodeBuddy 等以 CLI 当前支持列表为准。CodeBuddy 和 WorkBuddy 是不同安装目标，不用 `-a codebuddy` 代替 WorkBuddy 导入。
 

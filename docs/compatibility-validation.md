@@ -32,3 +32,13 @@ npx --yes skills list
 安装器识别到一个 iphone-ui，分别写入项目 `.agents/skills/iphone-ui` 和 `.claude/skills/iphone-ui`。逐字节对比入口、许可证、来源说明及 agents/references/scripts/assets/docs 下共 24 个资源文件，均与源码一致；README 另外包含在 ZIP 中。此结果仅验证本地源码安装；远程安装和 Release 下载需要另行核对。
 
 Skill frontmatter 校验、本地 Markdown 文件链接、截图脚本帮助入口通过。两种 ZIP 均为 25 个文件，内容与源码一致；重复构建结果一致，已有同名输出被拒绝覆盖。未运行新的设计任务、付费生图、WorkBuddy 导入、Windows 环境或各宿主界面验收。
+
+## 发布后命令复测
+
+从公开 GitHub 仓库执行用户级安装，以 Node 测试预加载器将 homedir 定位到独立临时目录，未更改真实用户的 HOME 或已有技能。指定 `-a codex -a claude-code` 安装成功，默认方式将资源写入临时用户 `.agents/skills/iphone-ui`，并链接到 `.claude/skills/iphone-ui`；24 个资源文件与发布源码逐字节一致。
+
+不指定 `-a` 的通用命令在本次 Agent 执行环境中自动选择了多个目标，虽安装成功，但产生“PromptScript 不支持全局安装”的局部失败提示。因此 README 默认改为明确指定目标软件，不把 CLI 的自动选择当作稳定入口。
+
+公开 Release 中的 WorkBuddy ZIP 已通过匿名 HTTPS 直接下载，SHA-256 与发布校验和一致，ZIP 完整且根目录含 SKILL.md。公开 Git 克隆、从克隆源码运行打包命令和 `skills update iphone-ui -g` 检查均通过；更新检查结果为已是最新版本，不代表测试了跨版本升级。
+
+`skills remove iphone-ui -g -y` 也已在该隔离用户目录成功卸载。测试中的 `-y` 用于跳过确认，README 不带 `-y` 的卸载命令会保留交互确认。
