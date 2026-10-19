@@ -1,5 +1,26 @@
 [
   {
+    "file": "packwise-reference.png",
+    "source": "User-provided conversation screenshot, 2026-10-19, attachment 1",
+    "conversationId": "01a1247b-e6b0-77a3-9f02-b7fd1093c356",
+    "sha256": "ee56b47624321318a6e5ac5fc062250d175f096dae3a4eb93217bbff10e8ab79",
+    "kind": "User-provided HTML prototype screenshot"
+  },
+  {
+    "file": "nourishset-plan-reference.png",
+    "source": "User-provided conversation screenshot, 2026-10-19, attachment 2",
+    "conversationId": "01a13cf8-9e4c-7550-8bce-e4ecccba79d2",
+    "sha256": "29ef26b5dacc57b78fb9bfbb84fab703b7f47f237bb2dcba5c15af4e0fc8fae7",
+    "kind": "User-provided HTML prototype screenshot"
+  },
+  {
+    "file": "headroom-reference.png",
+    "source": "User-provided conversation screenshot, 2026-10-19, attachment 3",
+    "conversationId": "01a1423a-84f3-77c0-b2b6-735f5612c049",
+    "sha256": "65780e7f18b94d9e9b27d005b0acccbaa7a0b34fd00cc8bffd440104a3bd9350",
+    "kind": "User-provided HTML prototype screenshot"
+  },
+  {
     "file": "headroom-overview.jpg",
     "source": "headroom/prototype/evidence/round-06/H01.png",
     "sha256": "ae3abd9b0b3a4a5b73e82f9be6d4024b98f72eced8e523e3e296935ee9b6b71f",

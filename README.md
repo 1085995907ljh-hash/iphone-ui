@@ -6,6 +6,16 @@
 
 ## 页面案例
 
+### 对话原型精选
+
+以下三张是用户从设计对话中提供的原型截图，原样收录。Packwise 展示旅行封面与打包进度，NourishSet 展示预算、备餐成本与每日餐单，Headroom 展示预计余额与账单时间提醒。它们是不同产品的设计案例，可参考各自的信息层级、图片用途和主要操作。
+
+| Packwise · 旅行打包 | NourishSet · 饮食规划 | Headroom · 现金流 |
+| --- | --- | --- |
+| <a href="assets/examples/packwise-reference.png"><img src="assets/examples/packwise-reference.png" width="260" alt="Packwise 对话原型：西雅图行程封面、打包进度与继续打包入口"></a> | <a href="assets/examples/nourishset-plan-reference.png"><img src="assets/examples/nourishset-plan-reference.png" width="260" alt="NourishSet 对话原型：42 美元购物预算、备餐时间与每日三餐"></a> | <a href="assets/examples/headroom-reference.png"><img src="assets/examples/headroom-reference.png" width="260" alt="Headroom 对话原型：1240 美元预计余额、发薪前提醒与近期收支"></a> |
+
+截图记录的是对话中的具体版本，不代表项目当前最新界面。NourishSet 截图底部导航未完整显示。以下保留更多页面案例，来源与文件校验值见 [案例清单](assets/examples/manifest.json)。
+
 以下是本工作区已有设计项目的 **HTML 可交互原型实拍截图**，用于展示页面布局和视觉效果，并非原生 iOS App 截图，也不是本轮新生成的概念图。展示的是各项目已保存的具体版本；示例数据与图片不代表真实账户、行程或用户照片。点击图片可以查看原尺寸。
 
 ### Headroom · 预算与现金流
